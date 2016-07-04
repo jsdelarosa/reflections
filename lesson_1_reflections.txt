@@ -1,0 +1,63 @@
+
+to access iCloud files: cd ~/Library/Mobile\ Documents/com~apple~CloudDocs
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called 
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was easier to notice changes along the document, and in those changes was introduced the mistake.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because you can check past implementations, basic structures and get along nicer with the code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros is the easy and offline access to a doc. The cons are that the elements are not automatically saved, the docs are not available everywhere and that sometimes extra sw is required.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git was specifically made for code which is more likely to be reviewed periodically through it’s changes while a Doc in Google Docs it’s not likely to see last changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    opening terminal, then with command “cd” choosing the folder containing the files to compare. Using “diff” both files are compared.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because now it’s easier to access to compare the new code to a stable version and review changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To make changes on longer codes and compare each version.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Because it will make easier to compare new versions with stable ones created in the past.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Pros are that you can keep track of every step in your work and handle every mistake found. Cons are that you can’t keep track of every change in case you made a typo or the code simply doesn’t works.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Because they are intended to be used for different purposes. In a documents it’s not indispensable to keep track of multiple docs, while in code sometime it is.
+
+How can you use the commands git log and git diff to view the history of files?
+	first getting the id of the changes using “git log” in the right directory, then with “git diff first_file second_file” compare the changes, + is added info and - is deleted info.
+
+How might using version control make you more confident to make changes that could break something?
+	Because you can keep track about where was a bug introduced, compare the bugged version with a working one and easily identify the source of the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	To keep track of versions in code that allows it.

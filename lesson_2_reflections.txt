@@ -1,0 +1,6 @@
+
+to access iCloud files: cd ~/Library/Mobile\ Documents/com~apple~CloudDocs
+
+
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a hidden folder with the Git information, it is done to keep track of the files contained.
