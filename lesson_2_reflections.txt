@@ -4,3 +4,6 @@ to access iCloud files: cd ~/Library/Mobile\ Documents/com~apple~CloudDocs
 
 What happens when you initialize a repository? Why do you need to do it?
 	It creates a hidden folder with the Git information, it is done to keep track of the files contained.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	the staging area is where you check the tracked/untracked files, the working area are the already set files and the repository are the active files with changes involved.
