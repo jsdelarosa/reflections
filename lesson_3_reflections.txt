@@ -12,3 +12,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Using cloud services like iCloud or Dropbox, everybody knows how to use them, but keeping logs, commentaries and merging are complicated or non-existing functions.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When you are testing new features and don’t want to make a mess on a stable version. It benefits because if the new features is on point it can be easily merged with the master, also it allows collaboration and feedback.
